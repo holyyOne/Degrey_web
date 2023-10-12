@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<link href="~/Content/mystyle.css" rel="stylesheet" />
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body style="margin:0">
+    <header class="menu">
+        <div class="container">
+            <div class="flex-container">
+                <div class="logo">
+                    <img src="https://file.hstatic.net/1000281824/file/tote-1_33445b051a404bb790b6d0df0275ac8d.png" style="width:85px;height:70px;" />
+                </div>
+                <div class="header_nav">
+                    <ul class="header_nav_list">
+                        <li class="header_nav_item">
+                            <a href="~/Home/TrangChu">Trang chu</a>
+                        </li>
+                        <li class="header_nav_item">
+                            <a href="~/Home/SanPham">San pham</a>
+                        </li>
+                        <li class="header_nav_item">
+                            Store
+                        </li>
+                        <li class="header_nav_item">
+                            Gioi thieu
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+        <div id="home-body">
+            @RenderBody()
+        </div>
+        <footer class="home-footer">
+            <div class="footer-container">
+                <div class="footer-expand-collapsed">
+                    <div class="footer-mainif">
+                        <div class="if-container">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 col-xs-12 widget-footer">
+                                    <h4 class="title-footer">Ve DEGREY</h4>
+                                </div>
+                                <div class="col-md-3 col-sm-12 col-xs-12 widget-footer">
+                                    <h4 class="title-footer">Ho tro khach hang</h4>
+                                </div>
+                                <div class="col-md-3 col-sm-12 col-xs-12 widget-footer">
+                                    <h4 class="title-footer">Cham soc khach hang</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>
+                            Copyright 2023
+                            <a href="/"> DEGREY VIETNAM</a>
+                            .
+                            <a target="_blank" href="https://www.haravan.com" rel="noreferrer">Powered by Haravan</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

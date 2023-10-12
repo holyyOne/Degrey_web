@@ -1,0 +1,47 @@
+﻿body {
+    margin:0;
+}
+
+.collection-heading{
+    margin:30px 0 10px;
+}
+
+.collection-container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#pro-list{
+    display:inline-block;
+    padding-left:150px;    
+}
+
+.box-pro {
+    height: 350px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.size-img{
+    height:200px;
+    width:200px;
+    margin-left:20px;
+    margin-right:10px;
+}
+
+.box-des {
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.margin-des {
+    margin-left: 10px;
+    margin-right: 5px;
+}
